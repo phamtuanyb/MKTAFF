@@ -1,0 +1,7 @@
+{
+  "name": "MKT AFFILIATE",
+  "description": "An AI-powered storyboard generator for UGC commerce videos that creates images and scene-based prompts for unboxing and product reviews.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
