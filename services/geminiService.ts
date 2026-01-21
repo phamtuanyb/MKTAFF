@@ -4,7 +4,7 @@ import { VideoStyle, Scene } from "../types";
 import { STYLE_CONFIGS } from "../constants";
 
 // Use process.env.API_KEY directly as per guidelines
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
 
 // Phân tích danh tính và trang phục một lần để dùng chung
 export const analyzeIdentity = async (characterImage: string, outfitImage: string) => {
